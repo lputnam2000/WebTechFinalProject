@@ -1,0 +1,156 @@
+img{
+    display: inline-block;
+    margin: 1em 2.1em;
+    height: 3em;
+}
+
+#formdiv {
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 70%;
+    text-align: left;
+    padding: 1em;
+    box-shadow: 0 0 2em 0 rgba(0,0,0,0.3);
+    font-family: Chalet;
+    transition: box-shadow 1s ease;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+
+h1{
+    font-family: Chalet;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    max-height: 100%;
+    overflow: auto;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+input[type=text], input[type=password]
+{
+    outline: 0em solid white;
+    border: 0em solid white;
+    border-bottom: .05em solid black;
+    font-size: 2em;
+    font-family: Chalet;
+    width: 100%;
+    margin: .5em 0em 1.5em 0em;
+}
+
+input[type=button]
+{
+    width: 47%;
+    margin: 3% 1%;
+    background-color: rgba(0,0,0,0);
+    font-family: Chalet;
+    font-size: 1em;
+    padding: .5em .7em;
+    border: 0em solid white;
+    font-weight: bold;
+}
+
+input[type=submit]
+{
+    width: 50%;
+    margin: 0;
+    background-color: rgba(0,0,0,0);
+    font-family: Chalet;
+    font-size: 1em;
+    padding: .5em .7em;
+    border: 0em solid white;
+    font-weight: bold;
+    outline: .1em solid black;
+    color: black;
+    background-color: rgba(0,0,0,0);
+    transition: outline 1s ease, background-color 1s ease, color 1s ease;
+    margin: 0em 24%;
+}
+
+input[type=submit]:hover{
+    outline: 0em solid black;
+    color: white;
+    background-color: black;
+    transition: outline 1s ease, background-color 1s ease, color 1s ease;
+}
+
+#fb{
+    outline: .1em solid royalblue;
+    color: royalblue;
+    background-color: rgba(0,0,0,0);
+    transition: outline 1s ease, background-color 1s ease, color 1s ease;
+}
+
+#fb:hover{
+    outline: 0em solid royalblue;
+    background-color: royalblue;
+    color: white;
+    transition: outline 1s ease, background-color 1s ease, color 1s ease;
+}
+
+#google{
+    outline: .1em solid indianred;
+    color: indianred;
+    background-color: rgba(0,0,0,0);
+    transition: outline 1s ease, background-color 1s ease, color 1s ease;
+}
+
+#google:hover{
+    outline: 0em solid indianred;
+    background-color: indianred;
+    color: white;
+    transition: outline 1s ease, background-color 1s ease, color 1s ease;
+}
+
+
+#formdiv:hover{
+    box-shadow: 0 0 4em 0 rgba(0,0,0,0.6);
+    transition: box-shadow 1s ease;
+}
+
+p{
+    margin: 0;
+    text-align: left;
+}
+
+span{
+    display: block;
+}
+
+input{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to right, #f4c4f3, #fc67fa);
+    font-family: Chalet;
+    color: black;
+}
+
+#style-13::-webkit-scrollbar-track
+{
+	background-color: lightgrey;
+}
+
+#style-13::-webkit-scrollbar
+{
+	width: .8em;
+	background-color: white;
+}
+
+#style-13::-webkit-scrollbar-thumb
+{
+	background-color: dimgrey;
+}
